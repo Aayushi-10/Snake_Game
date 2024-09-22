@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background: url(img/bg.jpg);
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    width: 90vmin;
+    height: 92vmin;
+    background: linear-gradient(rgb(194, 255, 194), rgb(255, 255, 175));
+    border: 3px solid green;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+}
+
+#scoreBox{
+    position: absolute;
+    right: 18vw;
+    top: 2vh;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#hiscoreBox{
+    position: absolute;
+    right: 15vw;
+    top: 10vh;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.head{
+    background-color: rgb(206, 105, 206);
+    border-radius: 8px;
+    border: 1px solid rgb(230, 102, 230);
+}
+
+.bodyy{
+    background-color: rgb(138, 138, 197);
+    border-radius: 15px;
+    border: 1px solid rgb(81, 81, 233);
+}
+
+.food{
+    background-color: rgb(188, 104, 104);
+    border-radius: 8px;
+}
